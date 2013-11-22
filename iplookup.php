@@ -18,7 +18,6 @@ $returnArray = array();
 
 foreach ($data as $key => $domain) {
     $returnArray[$domain]['ip'] = gethostbyname($domain);
-    //$returnArray[$domain]['latency'] = pingDomain($domain);
 }
 
 
